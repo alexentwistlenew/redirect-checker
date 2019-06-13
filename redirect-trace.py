@@ -19,5 +19,4 @@ r.history
 for i, response in enumerate(r.history, 1): 
 	print(i,response.url,response.status_code)
 
-print(r.status_code,r.url)
-
+print("Complete: ",r.url,r.status_code)
